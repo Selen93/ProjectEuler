@@ -1,4 +1,5 @@
 # Largest palindrome number from the product of two 3-digit numbers
+# result 906609
 
 zahl = ""
 palindromzahlen = []
