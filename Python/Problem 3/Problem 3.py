@@ -11,7 +11,7 @@ def isPrime(n):
 zahl = 600851475143
 grenze = math.sqrt(zahl)
 
-for x in range(1,int(grenze)):
+for x in range(2,int(grenze)):
     if isPrime(x):
         if zahl%x == 0:
             print(x)
