@@ -22,4 +22,3 @@ for x in fibonaccinumbers:
         result = result +x
 
 print(result)
-
