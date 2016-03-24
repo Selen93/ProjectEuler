@@ -8,10 +8,10 @@ def isPrime(n):
 
     return True
 
-zahl = 600851475143
-grenze = math.sqrt(zahl)
+number = 600851475143
+upperbound = math.sqrt(number)
 
-for x in range(2,int(grenze)):
+for x in range(2,int(upperbound)):
     if isPrime(x):
-        if zahl%x == 0:
+        if number%x == 0:
             print(x)
