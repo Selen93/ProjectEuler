@@ -37,3 +37,20 @@ def triangular(n):
     for i in range (1,n+1):
         result+=i
     return result
+
+def collatz(n):
+    sequence = []
+    sequence.append(n)
+    while n>1:
+        if n%2==0: n = n/2
+        else: n = 3*n+1
+        sequence.append(n)
+    return sequence
+
+def collatzlength(n):
+    result = 0
+    while n>1:
+        if n%2==0: n = n/2
+        else: n = 3*n+1
+        result+=1
+    return result
