@@ -2,7 +2,6 @@
 
 f = open('numbers')
 numbers = []
-numbers2 = []
 number = 0
 sum = 0
 sums = []
