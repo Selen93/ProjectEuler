@@ -54,3 +54,7 @@ def collatzlength(n):
         else: n = 3*n+1
         result+=1
     return result
+
+def mk_int(s):
+    s = s.strip()
+    return int(s) if s else 0

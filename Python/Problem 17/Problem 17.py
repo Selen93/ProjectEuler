@@ -12,7 +12,7 @@ for n in range(20,91,10):
 
 #numbers 200,300,400...
 for i in range(200,1000,100):
-    numbers[i] = numbers[100]+numbers[i/100]-3
+    numbers[i] = numbers[i/100]+7
 
 #numbers 101...199,201...299,...
 for i in range(100,1000,100):
