@@ -58,3 +58,10 @@ def collatzlength(n):
 def mk_int(s):
     s = s.strip()
     return int(s) if s else 0
+
+def divisorsum(n):
+    sum = 0
+    for i in range(1,int(n*0.5)+1):
+        if n%i==0:
+            sum += i
+    return sum
