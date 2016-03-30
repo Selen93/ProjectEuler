@@ -1,4 +1,6 @@
 # help functions
+import string
+
 
 def isPrime(n):
   if n == 2 or n == 3: return True
@@ -65,3 +67,7 @@ def divisorsum(n):
         if n%i==0:
             sum += i
     return sum
+
+def alpval(s):
+    result = sum([string.ascii_uppercase.index(x)+1 for x in s])
+    return result
